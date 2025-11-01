@@ -50,7 +50,7 @@ export default function GettingStartedPage() {
             <div className="space-y-6">
               <p className="text-muted-foreground text-lg leading-relaxed">
                 Microgreens are young vegetable greens harvested just after the first true leaves (cotyledons) have developed.
-                They're typically 1-3 inches tall and harvested within 7-21 days after germination. Unlike sprouts,
+                They&apos;re typically 1-3 inches tall and harvested within 7-21 days after germination. Unlike sprouts,
                 microgreens are grown in soil or growing medium and require sunlight, making them more nutritious and flavorful.
               </p>
 
@@ -61,7 +61,7 @@ export default function GettingStartedPage() {
                     <h3 className="font-semibold text-lg mb-2">Why Microgreens Matter</h3>
                     <p className="text-sm text-muted-foreground">
                       Microgreens can contain up to 40 times more nutrients than their mature counterparts,
-                      making them a superfood that's gaining popularity among health-conscious consumers,
+                      making them a superfood that&apos;s gaining popularity among health-conscious consumers,
                       restaurants, and wellness centers across India.
                     </p>
                   </div>
@@ -259,7 +259,7 @@ export default function GettingStartedPage() {
                 <div>
                   <h4 className="font-medium mb-2">Starter Kit (₹8,000-15,000):</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• 10-20 growing trays (10"x20")</li>
+                    <li>• 10-20 growing trays (10&quot;x20&quot;)</li>
                     <li>• Growing medium: Cocopeat or soil mix (25kg)</li>
                     <li>• Quality seeds: 5-6 varieties (500g each)</li>
                     <li>• Spray bottles and watering can</li>
@@ -335,7 +335,7 @@ export default function GettingStartedPage() {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Pro Tip: Start Small, Scale Smart</h3>
                 <p className="text-sm text-muted-foreground">
-                  Don't invest in a full commercial setup immediately. Start with 10-15 trays and master the basics:
+                  Don&apos;t invest in a full commercial setup immediately. Start with 10-15 trays and master the basics:
                   consistent germination, proper watering, and harvest timing. Once you have 2-3 paying clients and
                   consistent quality, then invest in expanding your operation. This minimizes risk and ensures you
                   learn the nuances of your local climate before scaling.
