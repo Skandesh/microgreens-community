@@ -103,6 +103,20 @@ export default function GettingStartedPage() {
           </motion.div>
 
           <motion.div {...fadeInUp} transition={{ delay: 0.2 }}>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Watch: Seed Sowing Basics</h3>
+            <div className="rounded-xl overflow-hidden border border-emerald-400/20 mb-8">
+              <video
+                src="/seed-sowing.mp4"
+                controls
+                preload="metadata"
+                className="w-full aspect-video object-cover"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </motion.div>
+
+          <motion.div {...fadeInUp} transition={{ delay: 0.25 }}>
             <h3 className="text-2xl font-bold mb-6 text-foreground">Nutritional Powerhouse</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">

@@ -28,13 +28,13 @@ export function Header() {
         
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-6">
-          <Link href="/" className="text-sm font-medium hover:text-emerald-600 transition-colors">
+          <Link href="/" className="flex items-center text-sm font-medium hover:text-emerald-600 transition-colors">
             Home
           </Link>
-          
+
           {/* Learn Dropdown */}
-          <div className="relative group">
-            <button 
+          <div className="relative group flex items-center">
+            <button
               className="flex items-center gap-1 text-sm font-medium hover:text-emerald-600 transition-colors"
               onMouseEnter={() => setIsLearnOpen(true)}
               onMouseLeave={() => setIsLearnOpen(false)}
@@ -43,7 +43,7 @@ export function Header() {
               <ChevronDown className="h-3 w-3" />
             </button>
             {isLearnOpen && (
-              <div 
+              <div
                 className="absolute top-full left-0 mt-2 w-48 bg-background border rounded-lg shadow-lg py-2"
                 onMouseEnter={() => setIsLearnOpen(true)}
                 onMouseLeave={() => setIsLearnOpen(false)}
@@ -63,32 +63,32 @@ export function Header() {
               </div>
             )}
           </div>
-          
-          <Link href="/training" className="text-sm font-medium hover:text-emerald-600 transition-colors">
+
+          <Link href="/training" className="flex items-center text-sm font-medium hover:text-emerald-600 transition-colors">
             Training Programs
           </Link>
-          <Link href="/blog" className="text-sm font-medium hover:text-emerald-600 transition-colors">
+          <Link href="/blog" className="flex items-center text-sm font-medium hover:text-emerald-600 transition-colors">
             Blog
           </Link>
-          <Link href="/community" className="text-sm font-medium hover:text-emerald-600 transition-colors">
+          <Link href="/community" className="flex items-center text-sm font-medium hover:text-emerald-600 transition-colors">
             Community
           </Link>
-          <Link href="/about" className="text-sm font-medium hover:text-emerald-600 transition-colors">
+          <Link href="/about" className="flex items-center text-sm font-medium hover:text-emerald-600 transition-colors">
             About
           </Link>
-          
+
           <Link
             href="/training"
             className={cn(
               buttonVariants({ variant: "default" }),
-              "h-8 text-primary-foreground rounded-lg bg-emerald-500 hover:bg-emerald-600 tracking-tight font-medium ml-4"
+              "h-8 text-primary-foreground rounded-lg bg-emerald-500 hover:bg-emerald-600 tracking-tight font-medium ml-4 flex items-center"
             )}
           >
             Get Started
           </Link>
         </nav>
         
-        <div className="mt-2 cursor-pointer block lg:hidden">
+        <div className="cursor-pointer block lg:hidden">
           <MobileDrawer />
         </div>
       </div>

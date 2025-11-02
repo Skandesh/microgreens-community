@@ -2,6 +2,7 @@
 
 import { Section } from "@/components/section";
 import { Button } from "@/components/ui/button";
+import { ModernVideoPlayer } from "@/components/ui/modern-video-player";
 import { siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -38,9 +39,18 @@ export function Testimonials() {
                 !showAll && index >= initialDisplayCount && "hidden"
               )}
             >
+              {testimonial.video && (
+                <div className="relative w-full aspect-video bg-black">
+                  <ModernVideoPlayer
+                    src={testimonial.video}
+                    poster={testimonial.image}
+                    className="w-full h-full"
+                  />
+                </div>
+              )}
               <div className="px-4 py-5 sm:p-6 flex-grow">
                 <div className="flex items-center gap-4 mb-4">
-                  {testimonial.image && (
+                  {testimonial.image && !testimonial.video && (
                     <Image
                       src={testimonial.image}
                       alt={testimonial.name}

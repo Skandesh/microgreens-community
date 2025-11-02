@@ -146,18 +146,20 @@ export const siteConfig = {
     {
       id: 1,
       text: "GreenGrow Academy helped me convert my Chennai balcony into a thriving microgreens studio serving 40 families every week.",
-      name: "Indira V",
-      company: "Chennai Balcony Greens",
+      name: "Swapna",
+      company: "Coimbatore Balcony Greens",
       image:
         "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-1.mp4",
     },
     {
       id: 2,
       text: "The business mentorship gave me confidence to pitch to Bengaluru cafés. I recouped my investment in 6 weeks.",
-      name: "Harish Rao",
+      name: "Tharinishi Ajeethkumar",
       company: "Urban Sprout Lab, Bengaluru",
       image:
         "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-2.mp4",
     },
     {
       id: 3,
@@ -166,14 +168,16 @@ export const siteConfig = {
       company: "Coimbatore Fresh Farms",
       image:
         "https://images.unsplash.com/photo-1544723795-43253788e370?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-3.mp4",
     },
     {
       id: 4,
-      text: "Our coastal Kerala resort now harvests microgreens daily for breakfast buffets thanks to the climate-specific schedules.",
-      name: "Anjali Mathew",
+      text: "The way concepts were explained with patience and empathy, without rushing or overselling, made all the difference. I felt truly supported throughout my learning journey.",
+      name: "Vignewshwari Mathew",
       company: "Varkala Retreat",
       image:
         "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-4.mp4",
     },
     {
       id: 5,
@@ -182,14 +186,16 @@ export const siteConfig = {
       company: "HydroFresh Hyderabad",
       image:
         "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-5.mp4",
     },
     {
       id: 6,
-      text: "GreenGrow’s alumni network connected me to chefs in Puducherry who now feature my microgreens tasting menu.",
-      name: "Louis Bernard",
-      company: "Pondy Micro Harvests",
+      text: "As a software developer in Bangalore, I wanted this as a side hustle. The team handholded me through everything - I never expected this level of detailed information and support.",
+      name: "Priya K",
+      company: "Bengaluru Tech Greens",
       image:
         "https://images.unsplash.com/photo-1530023367847-a683933f4177?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-6.mp4",
     },
     {
       id: 7,
@@ -198,6 +204,7 @@ export const siteConfig = {
       company: "Whitefield Microgreens",
       image:
         "https://images.unsplash.com/photo-1543352634-873f17a7a088?w=500&auto=format&fit=crop&q=60",
+      video: "/client-testimonial-7.mp4",
     },
     {
       id: 8,

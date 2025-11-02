@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Ripple } from '@/components/ui/ripple';
 import type { LucideIcon } from 'lucide-react';
 import { CalendarClock, Handshake, MapPin, MessageCircle } from 'lucide-react';
+import Image from 'next/image';
 
 type CommunityHighlight = {
   title: string;
@@ -152,6 +153,42 @@ export function Community() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="mt-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-500 mb-6">
+              Community in Action
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="rounded-2xl overflow-hidden border border-emerald-400/20">
+                <video
+                  src="/client-discussion-1.mp4"
+                  poster="/client-discussion-1.jpg"
+                  controls
+                  preload="metadata"
+                  className="w-full aspect-video object-cover"
+                >
+                  Your browser does not support the video tag.
+                </video>
+                <div className="p-4 bg-emerald-500/5">
+                  <p className="text-sm font-medium text-foreground">Live Mentoring Session</p>
+                  <p className="text-xs text-muted-foreground mt-1">Weekly troubleshooting clinics with experienced growers</p>
+                </div>
+              </div>
+              <div className="rounded-2xl overflow-hidden border border-emerald-400/20">
+                <Image
+                  src="/client-discussion-2.jpg"
+                  alt="Community discussion"
+                  width={800}
+                  height={450}
+                  className="w-full aspect-video object-cover"
+                />
+                <div className="p-4 bg-emerald-500/5">
+                  <p className="text-sm font-medium text-foreground">Peer Learning Circle</p>
+                  <p className="text-xs text-muted-foreground mt-1">Growers sharing best practices and local market insights</p>
+                </div>
+              </div>
             </div>
           </div>
 
