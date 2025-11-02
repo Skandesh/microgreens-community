@@ -150,7 +150,8 @@ export const siteConfig = {
       company: "Coimbatore Balcony Greens",
       image:
         "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-1.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-1.mp4",
     },
     {
       id: 2,
@@ -159,7 +160,8 @@ export const siteConfig = {
       company: "Urban Sprout Lab, Bengaluru",
       image:
         "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-2.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-2.mp4",
     },
     {
       id: 3,
@@ -168,7 +170,8 @@ export const siteConfig = {
       company: "Coimbatore Fresh Farms",
       image:
         "https://images.unsplash.com/photo-1544723795-43253788e370?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-3.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-3.mp4",
     },
     {
       id: 4,
@@ -177,7 +180,8 @@ export const siteConfig = {
       company: "Varkala Retreat",
       image:
         "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-4.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-4.mp4",
     },
     {
       id: 5,
@@ -186,7 +190,8 @@ export const siteConfig = {
       company: "HydroFresh Hyderabad",
       image:
         "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-5.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-5.mp4",
     },
     {
       id: 6,
@@ -195,7 +200,8 @@ export const siteConfig = {
       company: "Bengaluru Tech Greens",
       image:
         "https://images.unsplash.com/photo-1530023367847-a683933f4177?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-6.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-6.mp4",
     },
     {
       id: 7,
@@ -204,7 +210,8 @@ export const siteConfig = {
       company: "Whitefield Microgreens",
       image:
         "https://images.unsplash.com/photo-1543352634-873f17a7a088?w=500&auto=format&fit=crop&q=60",
-      video: "/client-testimonial-7.mp4",
+      video:
+        "https://pub-e8747545f7b14c8489d33df21a1ff0a8.r2.dev/client-testimonial-7.mp4",
     },
     {
       id: 8,
